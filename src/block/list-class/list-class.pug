@@ -1,0 +1,4 @@
+mixin b-list-class(items, classes)
+	+b.list-class(class='_' + classes)
+		each item, i in items
+			+e.I.item(class=item)

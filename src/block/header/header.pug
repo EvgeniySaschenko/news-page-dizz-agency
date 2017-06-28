@@ -1,0 +1,16 @@
+mixin b-header()
+	+b.HEADER.header
+		.container
+			.row_1
+				.col_1
+					+b-link-img(header.logo, 'logo')
+				.col_2
+					+b-nav(header.navPrimary, 'header')
+				.col_3
+					+b-list-link(header.linksHeader, 'links-header')
+			.row_2
+				+b-form-list-input(header.formSearsh, 'searsh')
+			.row_3
+				+b-array-word(header.titleHeader, 'title')
+			.row_4
+				+b-link-img(header.feedback, 'feedback')

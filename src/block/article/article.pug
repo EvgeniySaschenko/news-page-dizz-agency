@@ -1,0 +1,21 @@
+mixin b-article(items, classes)
+	+b.article(class="_" + classes)
+		each item, i in items.content
+			- num = i + 1
+			+e.item(class="_" + num)
+				if item.titleSub
+					+e.H2.title(class='_' + num)!= item.titleSub
+				if item.src
+					+e.IMG.img(class='_' + num, src=item.src, alt="")
+				+e.block-paragraph(class='_' + num)!= item.paragraph
+		+b.info
+			.col.col_1
+				+e.TIME.date-time(datetime= + items.date ' ' + items.time)
+					+e.date!= items.date
+					+e.time!= items.time
+				+e.count-view!= items.coutView
+				+e.share
+					+e.share_text=items.shareText
+					+b-list-link(items.share, 'share')
+			.col.col_2
+				+e.author!= items.author

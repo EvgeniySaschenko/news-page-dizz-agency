@@ -1,0 +1,6 @@
+mixin b-modal-feadback()
+	+b.modal-feadback
+		+e.box
+			+e.close ×
+			+b-array-word(modalFeedback.text, 'modal-feadback')
+			+b-form-list-input(modalFeedback.formFeedback, 'modal-feadback')

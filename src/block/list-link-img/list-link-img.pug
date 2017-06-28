@@ -1,0 +1,9 @@
+mixin b-list-link-img(items, clsses)
+	+b.list-link-img(class="_" + clsses)
+		each item, i in items
+			- num = i + 1
+			+e.item(class='_' + num)
+				+e.A.link(class='_' + num, href=item.href)
+					+e.IMG.img(class='_' + num, src=item.src, alt="img")
+				if item.name
+					+e.name(class='_' + num)!= item.name

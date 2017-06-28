@@ -1,0 +1,200 @@
+.header
+	.list-link
+		&_links-header
+			display flex
+			font-size 13px
+		.list-link
+			&__link
+				margin-left 10px
+			&__item
+				display flex
+				align-items center
+				padding 0 15px
+				&_1::before
+					content ""
+					display inline-block
+					background-image url(../img/sprite.png)
+					background-position -52px -16px
+					width 14px
+					height 16px
+				&_2::before
+					content ""
+					display inline-block
+					background-image url(../img/sprite.png)
+					background-position -52px 0px
+					width 14px
+					height 16px
+
+.page_article
+	.list-link
+		&_sidebar
+			width 100%
+			background #f4f4f4
+			padding 30px 20px
+			margin-bottom 65px
+			text-align center
+			text-decoration underline
+			box-sizing border-box
+
+.page
+	.list-link
+		&_sidebar-feedback
+			background url(../img/sidebar-feedback.png)
+			height 38px
+			width 300px
+			position absolute
+			bottom 0
+			box-shadow 0 -1px 5px rgba(0,0,0,0.3)
+			border-radius 0 25px 0 0
+			.list-link
+				&__link
+					color #fff
+					line-height 38px
+					padding-left 10px
+					
+
+.page_article
+	.article
+		.list-link
+			&_share
+				display inline-block
+				.list-link
+					&__item
+						display inline-block
+					&__link
+						display inline-block
+						background-repeat no-repeat
+						margin-left 20px
+						cursor pointer
+						&_1
+							background-image url(../img/sprite.png)
+							background-position 0px -48px
+							width 8px
+							height 12px
+						&_2
+							background-image url(../img/sprite.png)
+							background-position -29px -37px
+							width 12px
+							height 10px
+						&_3
+							background-image url(../img/sprite.png)
+							background-position -40px -20px
+							width 12px
+							height 12px
+						&_4
+							background-image url(../img/sprite.png)
+							background-position -16px -37px
+							width 13px
+							height 11px
+
+	.list-link
+		&_other-news-content
+			width 100%
+			margin-bottom 40px
+			.list-link
+				&__item
+					text-align center
+				&__link
+					text-decoration underline
+					
+					
+.page_all-news
+	.list-link
+		&_nav-page
+			display flex
+			justify-content center
+			margin-bottom 40px
+			.list-link
+				&__item
+					display flex
+					justify-content center
+					align-items center
+					border 1px solid #bbbbbb
+					margin 0 2px
+					height 30px
+					width 30px
+					&:first-child
+						background corpColor
+						border 0
+						.list-link__link
+							color #fff
+				&__link
+					color #000	
+
+
+.footer
+	.list-link
+		&_docs-personal
+		&_docs-corporate
+		font-weight bold
+			.list-link
+				&__item
+					margin-bottom 10px
+					line-height 1.5
+					position relative
+					padding-left 15px
+					&::before
+						position absolute
+						top 5px
+						left 0
+						content ""
+						display inline-block
+						margin-right 13px
+						background-image url(../img/sprite.png)
+						background-position -41px -37px
+						width 7px
+						height 9px
+				&__link
+					color #a2a2a2
+				
+	.list-link
+		&_share
+			.list-link
+				&__item
+					display inline-block
+					&::before
+						content ""
+				&__link
+					display inline-block
+					background-repeat no-repeat
+					margin-right 20px
+					cursor pointer
+					background-image url(../img/sprite.png)
+					&_1
+						background-position -40px 0px
+						width 12px
+						height 20px
+					&_2
+						background-position -20px 0px
+						width 20px
+						height 18px
+					&_3
+						background-position 0px 0px
+						width 20px
+						height 20px
+					&_4
+						background-position 0px -20px
+						width 21px
+						height 17px
+
+@media tablet
+	.page_article
+		.list-link
+			&_other-news-content
+				display none
+
+@media phone
+	.header
+		.list-link
+			&_links-header
+				flex-direction column
+				align-items flex-start
+				.list-link
+					&__item
+						margin-top 10px
+						
+	.footer
+		.list-link
+			&_docs-personal
+			&_docs-corporate
+				display inline-block

@@ -1,0 +1,20 @@
+mixin b-page_all-news()
+	+b.page.page_all-news
+		.row_1.row_bread-crumbs
+			.container
+				+b-nav(pageNews2.navBreadCrumbs, 'bread-crumbs')
+		.row_2
+			.container
+				+b.MAIN.main
+					.container
+						.row_1
+							+b-title-h1(pageNews2.content.title, 'content')
+						.row_2
+							.col_1
+								+b-list-brief(pageNews2.content.listBriefArticle, 'content')
+								+b-list-link(pageNews2.navPage, 'nav-page')
+							.col_2
+								+b-title-h3(pageNews2.sidebar.title, 'sidebar')
+								+b-list-brief(pageNews2.sidebar.listFAQBrief, 'sidebar')
+								+b-list-link-img(pageNews2.sidebar.linkImgArticle, 'sidebar')
+								+b-list-link(pageNews2.sidebar.linkFeedback, 'sidebar-feedback')

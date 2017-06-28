@@ -1,0 +1,5 @@
+mixin b-address(items, classes)
+	+b.ADDRESS.address(class='_' + classes)
+		each item, i in items.text
+			-num = i + 1
+			+e.item(class='_' + num)!= item

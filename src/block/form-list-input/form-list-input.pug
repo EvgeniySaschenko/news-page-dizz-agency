@@ -1,0 +1,7 @@
+mixin b-form-list-input(items, clsses)
+	+b.FORM.form-list-input(class='_' + clsses, action=items.script, method="post")
+		each item, i in items.input
+			- num = i + 1
+			+e.SPAN.item(class='_' + num)
+				+e.INPUT.input(class='_' + num, name=item.name, placeholder=item.text)
+		+e.BUTTON.btn(type="submit")!= items.btn

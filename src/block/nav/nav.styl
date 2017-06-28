@@ -1,0 +1,125 @@
+.header
+	.nav
+		&_header
+			display flex
+			flex-direction row
+			font-size 13px
+			color #fff
+			.menu
+				display flex
+				&__item
+					padding 0 15px
+				&__link
+					position relative
+				&__link::before
+					content ""
+					display block
+					bottom 0
+					left 0
+					position absolute
+					width 100%
+					opacity 0
+					border-top 2px solid corpColor
+					transition 0.5s cubic-bezier(0.77, 0, 0.175, 1)
+					transition-property opacity, -webkit-transform;
+					transition-property opacity, transform;
+					transition-property opacity, transform, -webkit-transform
+				&__link:hover
+					color #74cbec
+				&__link:hover::before
+					transform translateY(12px)
+					opacity 1
+					
+			// Активный пункт		
+			.menu
+				&__item.active
+					.menu__link
+						color #74cbec
+					.menu__link::before
+						transform translateY(12px)
+						opacity 1
+
+.page		
+	.nav
+		&_bread-crumbs
+			margin-bottom 80px
+			font-size 13px
+			padding 15px 0
+			.menu
+				display flex
+				&__item
+					margin-right 15px
+					display inline-block
+					&::after
+						content ""
+						background-image url(../img/sprite.png)
+						background-position -48px -37px
+						display inline-block
+						width 4px
+						height 6px
+						margin-left 15px
+					&:last-child::after
+						background-image none
+				&__item:last-child
+					.menu__link
+						color #818181
+						
+@media phone
+	.header
+		.nav
+			&_header
+				.toggler
+					display flex
+					flex-direction column
+					justify-content center
+					align-items center
+					box-sizing padding-box
+					width 40px
+					height 40px
+					border 3px solid corpColor
+					cursor pointer
+					border-radius 0
+					&:hover
+						.toggler__row
+							opacity .5
+					&__row
+						width 25px
+						border-bottom 4px solid #fff
+						display block
+						margin 3px auto
+					
+				.menu
+					&__item
+						display none
+
+	// Активное меню
+	.header
+		.nav_header.active
+			position relative
+			text-align center
+			width 100%
+			.menu
+				position absolute
+				z-index 10
+				top 50px
+				width 100%
+				display block
+				&__item
+					font-size 16px
+					padding 10px 0
+					display block
+					background rgba(32, 141, 189, .8)
+					border-bottom 1px solid #21759a
+					&:hover 
+						background rgba(32, 141, 189, 1)
+				&__link
+					color #fff
+					&::before
+						display none
+		
+	// Активный пункт
+	.header
+		.nav_header
+			.menu
+				&__item.active
+					background rgba(32, 141, 189, 1)

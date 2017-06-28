@@ -1,0 +1,12 @@
+mixin b-list-brief(items, classes)
+	+b.list-brief(class='_' + classes)
+		each item, i in items
+			-num = i + 1
+			+e.item(class="_" + num)
+				+e.H3.name(class="_" + num)
+					+e.A.link(class="_name", href=item.href)!= item.name
+				if item.date
+					+e.date!= item.date
+				+e.text!= item.text
+					if item.more
+						+e.A.link(class="_more", href=item.href)!= item.more

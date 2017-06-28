@@ -1,0 +1,11 @@
+mixin b-nav(items, classes)
+	+b.NAV.nav(class='_' + classes)
+		+b.toggler
+			+e.row_1
+			+e.row_2
+			+e.row_3
+		+b.MENU.menu(class='_' + num)
+			each item, i in items
+				- num = i + 1
+					+e.item(class='_' + num)
+						+e.A.link(class='_' + num, href=item.href)!=item.name

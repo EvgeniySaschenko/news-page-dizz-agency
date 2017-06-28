@@ -1,0 +1,5 @@
+mixin b-array-word(items, clsses)
+	+b.array-word(class='_' + clsses)
+		each item, i in items
+			- num = i + 1
+			+e.item(class='_' + num)!= item

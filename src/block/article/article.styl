@@ -1,0 +1,62 @@
+.page_article
+	.article
+		margin-right 70px
+		margin-bottom 50px
+		&__img
+			float left
+			padding 0 35px 35px 0
+		&__block-paragraph
+			font-size 15px
+			text-align justify
+		&__block-paragraph p
+			line-height 1.6
+			margin-bottom 30px
+		&__block-paragraph strong
+			font-weight bold
+		.info
+			display flex
+			justify-content space-between
+			color #d4d4d4
+			border-top 1px solid #bababa
+			padding-top 30px
+			.col
+				display flex
+			&__date
+				padding-right 25px
+			&__time
+				padding-right 25px
+			&__count-view
+				padding-right 25px
+				&::before
+					content ""
+					margin-right 10px
+					display inline-block
+					background-image url(../img/sprite.png)
+					background-position 0px -37px
+					background-repeat no-repeat
+					width 16px
+					height 11px
+			&__share
+				&_text
+					display inline-block
+			&__author
+				float right
+				width 100%
+				
+@media tablet
+	.page_article
+		.article
+			margin-right 0
+			
+
+@media phone
+	.page_article
+		.article
+			.info
+				flex-direction column
+				.col
+					flex-direction column
+					.info__date-time
+					.info__count-view
+					.info__share
+						margin-bottom 10px

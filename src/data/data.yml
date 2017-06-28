@@ -1,0 +1,363 @@
+header:
+  logo: 
+    src: 'img/logo.png'
+    href: '#'
+  navPrimary:
+    - name: 'Home'
+      href: '#'
+    - name: 'About us'
+      href: '#'
+    - name: 'Services'
+      href: '#'
+    - name: 'What we do'
+      href: '#'
+    - name: 'FAQ'
+      href: '#'
+    - name: 'News'
+      href: '#'
+    - name: 'Contact us'
+      href: '#'
+  linksHeader:
+    - name: 'Login/register'
+      href: '#'
+    - name: 'Bookmark'
+      href: '#'
+  formSearsh:
+    script: '#'
+    btn: ''
+    input:
+      - text: 'Searsh'
+        name: 'searsh'
+  titleHeader: 
+    - 'Business News'
+  feedback: 
+    src: 'img/icon-feedback.png'
+    href: '#'
+
+footer:
+  feedback:
+    address:
+      title: 'ADDRESS'
+      text: 
+        - 'A&M Logos International, Inc.'
+        - '40 Rector Street, Suite 1502,'
+        - 'N&#8242;ew York, NY 10006'
+    mail:
+      title: 'EMAIL ADDRESS'
+      info:
+        - name: 'General:'
+          text: 'info@legalizationline.com'
+          href: 'mailto:info@legalizationline.com'
+
+        - name: 'Office:'
+          text: 'logosgroup@gmail.com'
+          href: 'mailto:logosgroup@gmail.com'
+    phone:
+      title: 'PHONE'
+      info:
+        - name: 'Tel:'
+          text: '212-233-7061'
+          href: 'tel:+3802122337061'
+
+        - name: 'Fax:'
+          text: '212-233-7167'
+          href: 'tel:+380212-233-7167'
+
+  shareText: 'Share:'
+  share: 
+    - 'icon-fb'
+    - 'icon-tw'
+    - 'icon-linkedin'
+    - 'icon-google-plus'
+        
+  instructions:
+    title: 'PAYMENT INSTRUCTIONS'
+    text: 
+      - '- Check or money order payable to A&M Logos International, Inc. (40 Rector Street, Suite 1502, New York, NY 10006) (only $USA)'
+      - '- Credit card. Please download the Credit Card Charge Authorization form <strong>(MS Word Format or Adobe PDF Format)</strong>, complete it, sign, and fax to 212-233-7167'
+  listDocsPersonal:
+    title: 'Do you need Personal documents?'
+    list:
+      - name: 'Death Certificate'
+        href: '#'
+      - name: 'Single Status Affidavit'
+        href: '#'
+      - name: 'Divorce Certificate'
+        href: '#'
+      - name: 'Marriage Certificate'
+        href: '#'
+      - name: 'Birth Certificate'
+        href: '#'
+      - name: 'Power of attorney'
+        href: '#'
+      - name: 'Divorce Certificate'
+        href: '#'
+
+  listDocsCorporate:
+    title: 'Do you need Corporate documents?'
+    list:
+      - name: 'Invitation letter to visit USA for <br> Business Purpos'
+        href: '#'
+
+pageNews1:
+  navBreadCrumbs:
+    - name: 'Home'
+      href: '#'
+    - name: 'News'
+      href: '#'
+    - name: 'In addition to making sure that your documents'
+      href: '#'
+
+  content:
+    article:
+
+      date: '05.06.2017'
+      time: '12:31 pm'
+      coutView: '385'
+      shareText: 'Share:'
+      share: 
+        - 'icon-fb'
+        - 'icon-tw'
+        - 'icon-linkedin'
+        - 'icon-google-plus'
+      author: 'John Harington'
+      title: 'In addition to making sure that your documents'
+      content:
+        - part:
+          src: 'img/article-1.png'
+          paragraph:
+            '<p><strong>Whether you require a translation</strong>, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate your documents. Our company has extensive experience in the preparation of various types of personal and corporate documents.</p>
+
+            <p>In order to help you determine which of our services you will require, the sidebars of our website are broken down into documents meant for Personal and Corporate use, thus allowing for more convenient navigation. Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request.</p>
+
+            <p><strong>Whether you require a translation</strong>, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate your documents. Our company has extensive experience in the preparation of various types of personal and corporate documents.</p>
+
+            <p><strong>In order to help you determine which</strong> of our services you will require, the sidebars of our website are broken down into documents meant for Personal and Corporate use, thus allowing for more convenient navigation. Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request.</p>
+
+            <p>Whether you require a translation, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>'
+
+        - part:
+          titleSub: 'So what is un apostille?'
+          paragraph:
+            '<p><strong>Whether you require a translation,</strong> legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate your documents. Our company has extensive experience in the preparation of various types of personal and corporate documents.</p>
+
+            <p><strong>In order to help you determine which</strong> of our services you will require, the sidebars of our website are broken down into documents meant for Personal and Corporate use, thus allowing for more convenient navigation. Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request.</p>
+
+            <p>Whether you require a translation, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>'
+
+        - part:
+          titleSub: 'So what is un apostille?'
+          paragraph:
+            '<p>Whether you require a translation, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request. Whether you require a translation, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request.</p>
+
+            <p>Whether you require a translation, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request. Whether you require a translation, legalization, an evaluation or any other type of service, you can always contact us by e-mail: info@legalizationline.com, fax (212) 233-7167or telephone (212) 233-7061. Experts are standing by to quickly answer your queries and help you decide what you require in order to achieve your goals.</p>
+
+            <p>Each link provides a thorough description of the purpose of the document as well as step-by-step instructions detailing what information we will require from you in order to fulfill you request.</p>'
+
+    linkOtherNews:
+      - name: 'Other news'
+        href: '#'
+
+  sidebar:
+    title: 'Other news'
+    listBriefArticle:
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '05.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '04.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '03.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '02.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '03.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '02.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '03.06'
+        more: 'Learn More'
+        href: '#'
+
+      - name: 'Our company has ...'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an ...'
+        date: '02.06'
+        more: 'Learn More'
+        href: '#'
+    linkAllNews:
+      - name: 'All news'
+        href: '#'
+    linkImgArticle:
+      - src: 'img/sdebar-article-1.png'
+        href: '#'
+      - src: 'img/sdebar-article-2.png'
+        href: '#'
+    linkFeedback:
+      - name: 'Write to us, we are online!'
+        href: '#'
+
+  service:
+    title: 'Services'
+    listBriefArticle:
+      - name: 'Execution of documents'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization ...'
+        more: 'More'
+        href: '#'
+
+      - name: 'Execution of documents'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization ...'
+        more: 'More'
+        href: '#'
+        
+      - name: 'Execution of documents'
+        text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization ...'
+        more: 'More'
+        href: '#'
+
+pageNews2:
+  navBreadCrumbs:
+    - name: 'Home'
+      href: '#'
+    - name: 'News'
+      href: '#'
+
+  content:
+    title: 'All News'
+
+    listBriefArticle:
+    - name: 'In addition to making sure that your documents'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure that your documents'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure that your documents'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure that'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure that your documents'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure that your documents'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+
+    - name: 'In addition to making sure'
+      href: '#'
+      text: 'In addition to making sure that your documents are accepted abroad by obtaining an Apostille or Consular Legalization, we can also play an important role in helping you create, retrieve and translate ...'
+      date: '05.06'
+      
+  navPage:
+    - name: '1'
+      href: '#'
+
+    - name: '2'
+      href: '#'
+
+    - name: '3'
+      href: '#'
+
+    - name: '...'
+      href: '#'
+
+    - name: '10'
+      href: '#'
+
+  sidebar:
+    title: 'FAQ'
+    listFAQBrief:
+      - name: 'CAN I BRING FRESH CAVIAR FROM RUSSIA BACK FOR PERSONAL USE?'
+        text: 'Caviar, fish: Customs and Border Protection (CBP) has been authorized by FWS to allow travelers to bring in only 125 grams of caviar...'
+        more: 'More'
+        href: '#'
+
+      - name: 'CAN I BRING FRESH CAVIAR FROM RUSSIA BACK FOR PERSONAL USE?'
+        text: 'Caviar, fish: Customs and Border Protection (CBP) has been authorized by FWS to allow travelers to bring in only 125 grams of caviar...'
+        more: 'More'
+        href: '#'
+
+      - name: 'CAN I BRING FRESH CAVIAR FROM RUSSIA BACK FOR PERSONAL USE?'
+        text: 'Caviar, fish: Customs and Border Protection (CBP) has been authorized by FWS to allow travelers to bring in only 125 grams of caviar...'
+        more: 'More'
+        href: '#'
+    linkImgArticle:
+      - src: 'img/sidebar-article-3.png'
+        href: '#'
+    linkFeedback:
+      - name: 'Write to us, we are online!'
+        href: '#'
+
+modalFeedback:
+  text:
+    - 'Need advice? We will call you back!'
+    - 'Consultant: 212-233-70-61'
+  formFeedback:
+    script: '#'
+    btn: 'Call me'
+    input:
+      - text: 'Phone'
+        name: 'phone'

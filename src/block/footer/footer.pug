@@ -1,0 +1,33 @@
+mixin b-footer()
+	+b.footer
+		.container
+			.row.row_1
+				.col.col_1
+					+b-title-h4(footer.feedback.address.title, 'footer')
+					+b-address(footer.feedback.address, 'address')
+
+					+b-title-h4(footer.feedback.mail.title, 'mail')
+					+b-list-name-link(footer.feedback.mail.info, 'mail')
+
+				.col.col_2
+					+b-title-h4(footer.instructions.title, 'instructions')
+					+b-array-word(footer.instructions.text, 'instructions')
+
+				.col.col_3
+					.box
+						+b-title-h4(footer.listDocsPersonal.title, 'docs-personal')
+						+b-list-link(footer.listDocsPersonal.list, 'docs-personal')
+
+			.row.row_2
+				.col.col_1
+					+b-title-h4(footer.feedback.phone.title, 'phone')
+					+b-list-name-link(footer.feedback.phone.info, 'phone')
+
+				.col.col_2
+					+b-title-h4(footer.shareText, 'share')
+					+b-list-link(footer.share, 'share')
+					
+				.col.col_3
+					.box
+						+b-title-h4(footer.listDocsCorporate.title, 'docs-corporate')
+						+b-list-link(footer.listDocsCorporate.list, 'docs-corporate')

@@ -1,0 +1,4 @@
+mixin b-link-img(items, classes)
+	+b.link-img(class="_" + classes)
+		+e.A.link(href=items.href)
+			+e.IMG.img(src=items.src, alt=classes)

@@ -1,0 +1,7 @@
+mixin b-list-name-link(items, clsses)
+	+b.list-name-link(class='_' + clsses)
+		each item, i in items
+			-num = i + 1
+			+e.item(class='_' + num)
+				+e.name(class='_' + num)!= item.name
+				+e.A.link(class='_' + num, href=item.href)!= item.text
