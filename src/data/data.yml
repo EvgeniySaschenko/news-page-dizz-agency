@@ -226,7 +226,7 @@ pageNews1:
     linkImgArticle:
       - src: 'img/sidebar-article-1.png'
         href: '#'
-      - src: 'img/sidebar-article-1.png'
+      - src: 'img/sidebar-article-2.png'
         href: '#'
     linkFeedback:
       - name: 'Write to us, we are online!'
