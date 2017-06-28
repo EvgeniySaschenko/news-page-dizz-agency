@@ -10,7 +10,7 @@ mixin b-article(items, classes)
 				+e.block-paragraph(class='_' + num)!= item.paragraph
 		+b.info
 			.col.col_1
-				+e.TIME.date-time(datetime= + items.date ' ' + items.time)
+				+e.date-time
 					+e.date!= items.date
 					+e.time!= items.time
 				+e.count-view!= items.coutView

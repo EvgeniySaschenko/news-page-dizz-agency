@@ -2,7 +2,7 @@ include  ../../node_modules/bemto.pug/bemto
 include  ../block/index
 
 doctype html
-html
+html(lang="en")
 	head
 		meta(charset="UTF-8")
 		meta(name="viewport", content="width=device-width, user-scalable=yes")
@@ -10,7 +10,6 @@ html
 		title News Page
 	body
 		block main
-		link(rel="stylesheet", href="modules/sprite/sprite.css")
 		link(rel="stylesheet", href="css/news-page.css")
 		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js")
 		script(src="js/news-page.js")
