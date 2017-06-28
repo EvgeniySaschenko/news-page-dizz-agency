@@ -224,9 +224,9 @@ pageNews1:
       - name: 'All news'
         href: '#'
     linkImgArticle:
-      - src: 'img/sdebar-article-1.png'
+      - src: 'img/sidebar-article-1.png'
         href: '#'
-      - src: 'img/sdebar-article-2.png'
+      - src: 'img/sidebar-article-1.png'
         href: '#'
     linkFeedback:
       - name: 'Write to us, we are online!'
